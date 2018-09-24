@@ -1,0 +1,50 @@
+{
+  "name": "codearx-react",
+  "version": "0.0.1",
+  "description": "A project of react developing template",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open --inline --hot -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aranab/codearx-react.git"
+  },
+  "keywords": [
+    "reactjs",
+    "node",
+    "webpack",
+    "babel",
+    "gruntjs",
+    "sass",
+    "susy3"
+  ],
+  "author": "Md. Arafat Rahman Rana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aranab/codearx-react/issues"
+  },
+  "homepage": "https://github.com/aranab/codearx-react#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
