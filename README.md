@@ -85,3 +85,6 @@ A project of react developing template
     - [CSS minimizer](https://github.com/NMFR/optimize-css-assets-webpack-plugin): Run `> npm install --save-dev optimize-css-assets-webpack-plugin` 
  - Build command: Run `> npm run build`
  - Start webserver: Run `> npm start`
+ 
+ ## License
+ Single license MIT
