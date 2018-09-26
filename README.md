@@ -85,3 +85,11 @@ A project of react developing template
     - [CSS minimizer](https://github.com/NMFR/optimize-css-assets-webpack-plugin): Run `> npm install --save-dev optimize-css-assets-webpack-plugin` 
  - Build command: Run `> npm run build`
  - Start webserver: Run `> npm start`
+
+# React App:
+
+### Create components:
+ - Create a [React Component](https://reactjs.org/docs/react-without-es6.html) by extending [`React.Component`](https://reactjs.org/docs/react-component.html) rather than using `React.createClass` since its deprecated from version `16.0` onwards and has been moved to a separate package ['create-react-class'](https://www.npmjs.com/package/create-react-class).
+
+## License
+ Single license MIT

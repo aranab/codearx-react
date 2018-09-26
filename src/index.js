@@ -1,12 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { hello, goodbye, hi } from "./assets/scripts/lib";
+import { SkiDayCount } from './components/SkiDayCount';
 
 render(
-    <div>
-        {hello}
-        {goodbye}
-        {hi}
-    </div>,
+    <SkiDayCount />,
     document.getElementById('react-container')
 );
