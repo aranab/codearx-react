@@ -37,8 +37,8 @@ A project of react developing template
  - JSX code is transpiled by babel.
 
 ### Install react:
- - [react](https://www.npmjs.com/package/react): Run `> npm install --save-dev react`
- - [react-dom](https://www.npmjs.com/package/react-dom): Run `> npm install --save-dev react-dom`
+ - [react](https://www.npmjs.com/package/react): Run `> npm install react`
+ - [react-dom](https://www.npmjs.com/package/react-dom): Run `> npm install react-dom`
 
 ### Babel inline transpiling:
  - [Babel is a JavaScript compiler](https://babeljs.io/docs/en/), which is transpiling 
@@ -90,6 +90,44 @@ A project of react developing template
 
 ### Create components:
  - Create a [React Component](https://reactjs.org/docs/react-without-es6.html) by extending [`React.Component`](https://reactjs.org/docs/react-component.html) rather than using `React.createClass` since its deprecated from version `16.0` onwards and has been moved to a separate package ['create-react-class'](https://www.npmjs.com/package/create-react-class).
+ - [Adding Props to components](https://reactjs.org/docs/components-and-props.html). Props of React is being an object and every props is a key.
+ - Class has additional features such as [local state](https://reactjs.org/docs/state-and-lifecycle.html#adding-local-state-to-a-class) and [lifecycle methods](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class).
+ - [Stateless functional components](https://reactjs.org/docs/hooks-state.html#hooks-and-function-components)
+ - Added react-icons: Run `> npm install --save react-icons`
+ - [Composition vs Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html)
+ - [The Component Lifecycle](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
+ - [Random Users Demo Data](https://randomuser.me/)
+ - [isomorphic-fetch is used for fetching data from API](https://www.npmjs.com/package/isomorphic-fetch): Run `> npm install --save isomorphic-fetch es6-promise`
+
+### Props:
+ - Provide props default value.
+ - [Validating or typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+ - [ProTypes](https://www.npmjs.com/package/prop-types): Run `> npm install --save prop-types`
+
+### State:
+ - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+
+### React Router:
+ - [Declarative routing for React](https://github.com/ReactTraining/react-router)
+ - [react-router](https://www.npmjs.com/package/react-router): Run `> npm install --save react-router`
+ - [DOM bindings for React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom): Run `> npm install --save react-router-dom`
+ - [React Native bindings for React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-native): Run `> npm install --save react-router-native`
+
+### Form Component:
+ - In most cases, React team recommend using [controlled components](https://reactjs.org/docs/forms.html#controlled-components) to implement forms. In a controlled component, form data is handled by a React component. The alternative is [uncontrolled components](https://reactjs.org/docs/uncontrolled-components.html), where form data is handled by the DOM itself.
+ - [Legacy API: String Refs](https://reactjs.org/docs/refs-and-the-dom.html#legacy-api-string-refs) is deprecated.
+ - Using [refs](https://reactjs.org/docs/glossary.html#refs) in class components.
+ - [Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)
+ - [Forwarding Refs](https://reactjs.org/docs/forwarding-refs.html)
+ - Two-way function binding by using Refs.
+ - [All Supported HTML Attributes](https://reactjs.org/docs/dom-elements.html)
+ - Adding a autocomplete component for dropdownlist.
+
+### Useful Links:
+ - State management by [Redux](https://github.com/reduxjs/redux)
+ - Data management solution by [Relay](https://facebook.github.io/relay/)
+ - Data management solution by [Falcor](https://netflix.github.io/falcor/)
+ - Data management solution by [GraphQL](https://graphql.org/)
 
 ## License
  Single license MIT
