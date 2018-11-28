@@ -1,12 +1,14 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { render } from 'react-dom';
-import { hello, goodbye, hi } from "./assets/scripts/lib";
+import './assets/stylesheets/ui.scss';
+import './assets/stylesheets/index.scss';
+import { HashRouter as Router } from 'react-router-dom';
+import { App } from './components/app';
 
 render(
-    <div>
-        {hello}
-        {goodbye}
-        {hi}
-    </div>,
-    document.getElementById('react-container')
+  <Router>
+    <App />
+  </Router>,
+  document.getElementById('react-container'),
 );
