@@ -81,7 +81,7 @@ A project of react developing template
     - [Write to disk the html file](https://github.com/jantimon/html-webpack-harddisk-plugin): Run `> npm install --save-dev html-webpack-harddisk-plugin`
     - [Clean output files](https://www.npmjs.com/package/clean-webpack-plugin): Run `> npm install --save-dev clean-webpack-plugin`
     - [Extracts CSS into separate files](https://webpack.js.org/plugins/mini-css-extract-plugin/): Run `> npm install --save-dev mini-css-extract-plugin`
-    - [JS minimizer](https://webpack.js.org/plugins/uglifyjs-webpack-plugin/): Run `> npm install --save-dev uglifyjs-webpack-plugin`
+    - [JS minimizer](https://github.com/webpack-contrib/terser-webpack-plugin): Run `> npm install --save-dev terser-webpack-plugin`
     - [CSS minimizer](https://github.com/NMFR/optimize-css-assets-webpack-plugin): Run `> npm install --save-dev optimize-css-assets-webpack-plugin` 
  - Build command: Run `> npm run build`
  - Start webserver: Run `> npm start`
